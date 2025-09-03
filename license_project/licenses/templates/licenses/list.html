@@ -51,7 +51,7 @@
                                     {{ license.status|capfirst }}
                                 </span>
                             </td>
-                            <td>{{ license.expires_at|date:"Y-m-d" }}</td>
+                            <td>{{ license.expires_at|date:"d-m-Y" }}</td>
                             <td>{% if license.is_valid %}✅{% else %}❌{% endif %}</td>
                             <td>
                                 {% if license.user == request.user or request.user.is_staff %}
