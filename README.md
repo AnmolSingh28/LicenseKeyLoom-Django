@@ -54,7 +54,8 @@ python manage.py createsuperuser
 
 python manage.py runserver
 
-->USAGE 1.Deployment: The live version of this tool is deployed on Render and can be accessed at: https://django-license-tool.onrender.com
+->USAGE
+1.Deployment: The live version of this tool is deployed on Render and can be accessed at: https://django-license-tool.onrender.com
 
 2.For Admins: Access http://localhost:8000/admin/ to manage settings and users.The main dashboard is at http://localhost:8000/licenses/create/ to generate new keys.
 
