@@ -18,7 +18,7 @@
                             Key for {{ license.user.username }}
                         {% endif %}
                         <br>
-                        <strong>Current Expiry:</strong> {{ license.expires_at|date:"Y-m-d" }}
+                        <strong>Current Expiry:</strong> {{ license.expires_at|date:"d-m-Y" }}
                     </p>
                     <form method="POST" action="{% url 'renew-license' license.pk %}">
                         {% csrf_token %}
